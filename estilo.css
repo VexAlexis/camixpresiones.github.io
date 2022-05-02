@@ -1,0 +1,74 @@
+*{
+	font-family: sans-serif;
+}
+
+body{
+	background-image: url("./logo.png");
+	background-repeat: repeat;
+	background-size: 600px 400px;
+	background-clip: content-box;
+}
+
+.container-login{
+	width: 350px;
+	height: 450px;
+	margin: 150px auto;
+	padding: 20px;
+	background: linear-gradient(to bottom, #035,#039);
+	border-radius: 3%;
+	border:  2px solid #05a;
+}
+
+.container-logo{
+	width: 260px;
+	height: 140px;
+	background-color: inherit;
+	border: 2px solid #05a;
+	margin: 20px auto 30px;
+}
+
+.logo{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.inicio{
+	width: 100%;
+	margin: 30px auto;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+
+.container-input{
+	padding: 8px;
+	margin: 6px;
+}
+
+.input{
+	width: 100%;
+	font-size: 18px;
+	color: #fff;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #05d;
+	border-left: 2px solid #05d;
+	outline: none;
+}
+
+.input::placeholder{
+	color: #888;
+}
+
+.submit{
+	width: 100%;
+	font-size: 20px;
+	color: #fff;
+	padding: 8px;
+	border-radius: 0.375rem;
+	background-color: #07d;
+	border: none;
+	outline: none;
+
+}
